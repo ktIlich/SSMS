@@ -1,12 +1,12 @@
-package ktilich.fit.bstu.ssms_6;
+package ktilich.fit.bstu.app_1;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.app.ActivityCompat;
 
 import android.Manifest;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.app.ActivityCompat;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -22,18 +22,12 @@ public class MainActivity extends AppCompatActivity {
 
   public void btnCLick(View view) {
     switch (view.getId()) {
-      case R.id.btnTask_2: {
+      case R.id.btnTask_1: {
         Intent i = new Intent();
-        i.setClassName("ktilich.fit.bstu.app_1", "ktilich.fit.bstu.app_1.MainActivity");
+        i.setClassName("ktilich.fit.bstu.ssms_6", "ktilich.fit.bstu.ssms_6.PrivateActivity");
         startActivity(i);
         break;
       }
-      case R.id.btnTask_3: {
-        Intent i = new Intent(this, PrivateActivity.class);
-        startActivity(i);
-        break;
-      }
-
     }
   }
 }

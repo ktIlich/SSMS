@@ -1,2 +1,4 @@
 rootProject.name='SSMS_6'
 include ':app'
+include ':app_1'
+include ':app_2'

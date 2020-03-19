@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-  package="ktilich.fit.bstu.ssms_6">
+  package="ktilich.fit.bstu.app_1">
 
-  <uses-permission android:name="ktilich.permission.STARTMYACTIVITY2" />
+  <uses-permission android:name="ktilich.permission.STARTMYACTIVITY" />
 
   <permission
-    android:name="ktilich.permission.STARTMYACTIVITY"
+    android:name="ktilich.permission.STARTMYACTIVITY2"
     android:description="@string/app_name"
     android:label="Start Private Activity"
     android:protectionLevel="normal" />
@@ -19,7 +19,7 @@
     android:theme="@style/AppTheme">
     <activity
       android:name=".PrivateActivity"
-      android:permission="ktilich.permission.STARTMYACTIVITY">
+      android:permission="ktilich.permission.STARTMYACTIVITY2">
       <intent-filter>
         <action android:name="android.intent.action.CALL_PRIVILEGED" />
       </intent-filter>
@@ -27,6 +27,7 @@
     <activity android:name=".MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
+
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
