@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@color/backgroundColor"
+  android:orientation="vertical"
+  android:paddingHorizontal="10dp"
+  android:paddingVertical="10dp">
+
+  <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:text="@string/shell_executor"
+    android:textAlignment="center"
+    android:textColor="@color/textColorGray"
+    android:textSize="18sp" />
+
+  <ListView
+    android:id="@+id/lvData"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:layout_marginVertical="10dp"
+    />
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:orientation="horizontal">
+
+    <EditText
+      android:id="@+id/edtCommand"
+      android:layout_width="0dp"
+      android:layout_weight="1"
+      android:layout_marginEnd="10dp"
+      android:layout_height="wrap_content"
+      android:backgroundTint="@color/textColorGray"
+      android:inputType="text"
+      android:textColor="@color/textColorWhite"
+      android:textColorHint="@color/textColorGray"
+      android:textSize="20sp" />
+
+    <Button
+      android:id="@+id/btnSubmit"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:background="@color/colorAccent"
+      android:paddingHorizontal="15dp"
+      android:onClick="onClick_btn"
+      android:text="@string/execute"
+      android:textColor="#fff"
+      android:textSize="20sp" />
+
+  </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SSMS_1</string>
+    <string name="username">UserName</string>
+    <string name="input_login">Input login</string>
+    <string name="password">Password</string>
+    <string name="input_password">input password</string>
+    <string name="login">Login</string>
+</resources>

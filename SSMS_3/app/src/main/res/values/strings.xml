@@ -1,0 +1,7 @@
+<resources>
+  <string name="app_name">SSMS_3</string>
+  <string name="save">Save</string>
+  <string name="dictionary">Dictionary</string>
+  <string name="load">Load</string>
+  <string name="translate">Translate</string>
+</resources>

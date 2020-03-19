@@ -1,0 +1,5 @@
+<resources>
+  <string name="app_name">SSMS_2</string>
+  <string name="shell_executor">Shell Executor</string>
+  <string name="execute">Execute</string>
+</resources>
