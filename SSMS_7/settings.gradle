@@ -1,2 +1,3 @@
 rootProject.name='SSMS_7'
 include ':app'
+include ':ssms_7_1'

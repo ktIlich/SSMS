@@ -1,3 +1,7 @@
 <resources>
   <string name="app_name">SSMS_7</string>
+  <string name="encoder">Encoder</string>
+  <string name="dev">Dev by Kt_iLich</string>
+  <string name="encryption_string">enter the encryption string</string>
+  <string name="encrypt">Encrypt</string>
 </resources>

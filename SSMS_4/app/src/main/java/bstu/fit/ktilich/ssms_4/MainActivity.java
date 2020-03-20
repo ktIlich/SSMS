@@ -98,8 +98,6 @@ public class MainActivity extends AppCompatActivity {
           ByteArrayInputStream bIn = null;
           fin = new FileInputStream(file);
 
-
-
           byte[] buffer = new byte[fin.available()];
           fin.read(buffer, 0, buffer.length);
 

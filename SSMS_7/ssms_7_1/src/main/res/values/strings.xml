@@ -1,0 +1,7 @@
+<resources>
+  <string name="app_name">SSMS_7_1</string>
+
+  <string name="decoder">Decoder</string>
+  <string name="dev">Dev by Kt_iLich</string>
+  <string name="decrypt">Decrypt</string>
+</resources>
